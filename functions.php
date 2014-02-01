@@ -2,15 +2,15 @@
 
 /** Enqueue Font Awesome from CDN if  your theme hasn't already included Font Awesome **/
 
-add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
+add_action( 'wp_enqueue_scripts', 'twp_enqueue_awesome' );
 /**
 * Register and load font awesome CSS files using a CDN.
 *
 * @link http://www.bootstrapcdn.com/#fontawesome
-* @author FAT Media
+* @author The Web Princess - borrowed from FAT MEdia
 */
-function prefix_enqueue_awesome() {
-wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', array(), '4.0.3' );
+function twp_enqueue_awesome() {
+	wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', array(), '4.0.3' );
 }
 
 /** Add your Social Menu to genesis_header - you can use other hook locations as you wish **/
@@ -38,7 +38,4 @@ function genesis_add_social() {
 	
 	}
 }
-
-
-
 ?>
