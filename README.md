@@ -10,5 +10,5 @@ Instructions
 ===================
 
 1. Add the content of the attached files to your theme's style.css and functions.php
-2. Create a Custom Menu and call it Social (not Social Menu, just 'Social')
+2. Create a Custom Menu and call it Social (not Social Menu, just 'Social' - or if you wish to call it something else, do so and adjust the Menu ID selectors accordingly)
 3. Add your social links to the menu - this code picks up on the default urls and attached the relevant icons according to the url the menu items are linking to. Nifty!
