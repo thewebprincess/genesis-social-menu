@@ -1,0 +1,114 @@
+/* Social Menu
+--------------------------------------------- */
+
+.screen-reader-text {
+	position: absolute;
+	top:      -9999em;
+	left:     -9999em;
+}
+
+#menu-social {}
+
+	#menu-social ul {
+		list-style: none;
+		margin:     0 0 25px;
+		text-align: center;
+		
+	}
+
+		#menu-social ul li {
+			display:  inline-block;
+			position: relative;
+		}
+
+			#menu-social li a::before {
+				content:        '\f005';
+				display:        inline-block;
+				padding:        0 5px;
+				font-family:    'FontAwesome';
+				font-size:      16px;
+				vertical-align: top;
+				-webkit-font-smoothing: antialiased;
+			}
+
+
+			#menu-social li a[href*="facebook.com"]::before {
+				content: '\f09a';
+			/* 	content: '\f082'; facebook-square */
+				color:   #3b5998;
+			}
+			#menu-social li a[href*="twitter.com"]::before {
+				content: '\f099';
+			/* 	content: '\f081'; /*twitter-square */
+				color:   #33ccff;
+			}
+			#menu-social li a[href*="plus.google.com"]::before {
+				content: '\f0d5';
+			/* content: '\f0d4'; /* google-plus square */
+				color: #dd4b39;
+			}
+			#menu-social li a[href*="linkedin.com"]::before {
+				content: '\f0e1';
+				color:   #0e76a8;
+			}
+			#menu-social li a[href*="app.net"]::before {
+				content: '\f170';
+				color:   #706D73;
+			}
+			#menu-social li a[href*="bitbucket.com"]::before {
+				content: '\f171';
+				/* content: '\f172';  bitbucket-square */
+			}
+ 			#menu-social li a[href*="dribbble.com"]::before { 
+				content: '\f17d';
+			 }
+			#menu-social li a[href*="flickr.com"]::before {
+				content: '\f16e';
+			}
+			#menu-social li a[href*="foursquare.com"]::before {
+				content: '\f180';
+			}
+			#menu-social li a[href*="github.com"]::before {
+				content: '\f09b';
+			/*	content: '\f113'; /*github-alt */
+			/*	content: '\f092'; /*github-square */
+			}
+			#menu-social li a[href*="instagram.com"]::before {
+				content: '\f16d';
+			}
+			#menu-social li a[href*="linkedin.com"]::before {
+				content: '\f0e1';
+			/*	content: '\f08c'; /* linkedin-square */
+			}
+			#menu-social li a[href*="pinterest.com"]::before {
+				content: '\f0d2';
+			/*	content: '\f0d3'; /* pinterest-square */
+			}
+			#menu-social li a[href*="renren.com"]::before {
+				content: '\f18b';
+			}
+			#menu-social li a[href*="stack-exchange.com"]::before {
+				content: '\f18d';
+			}
+			#menu-social li a[href*="stack-overflow.com"]::before {
+				content: '\f16c';
+			}
+			#menu-social li a[href*="tumblr.com"]::before {
+				content: '\f173';
+			/* 	content: '\f174'; /*tumblr-square */
+			}
+			#menu-social li a[href*="vimeo.com"]::before {
+				content: '\f194';
+			}
+			#menu-social li a[href*="weibo.com"]::before {
+				content: '\f18a';
+			}
+			#menu-social li a[href*="xing.com"]::before {
+				content: '\f168';
+			/*	content: '\f169'; /* xing-square */
+			}
+			#menu-social li a[href*="youtube.com"]::before {
+				content: '\f167';				
+			/*	content: '\f16a';/* youtube-play */
+			/*	content: '\f166';/* youtube-square */
+			}
