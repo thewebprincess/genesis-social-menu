@@ -20,7 +20,7 @@ add_action('genesis_header','genesis_add_social', 10);
 
 function genesis_add_social() {
 	if ( has_nav_menu( 'social' ) ) {
-
+		echo '<h4 class="social-title widgettitle widget-title">Connect</h4>'; 
 		wp_nav_menu(
 			array(
 				'theme_location'  => 'social',
